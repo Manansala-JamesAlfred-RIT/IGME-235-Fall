@@ -1,0 +1,2 @@
+ErrorDocument 404 /jrm2043/235/error/error.html
+DirectoryIndex noterror.html
