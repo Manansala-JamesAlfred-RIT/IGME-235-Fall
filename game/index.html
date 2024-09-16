@@ -4,75 +4,131 @@
     <meta charset="utf-8" />
     <title>Dig Dug Lab Exercise</title>
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" />
+
+    <!-- Added Font for headers-->
+    <!-- use this website to make palettes! cooolors.co-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+
     <style>
         h1 {
-            color: red;
+            color: #F24333;
             font-family: sans-serif;
-            border-bottom: 1px solid blue;
+            margin-left: 100px;
+            font-family: 'Protest Guerrilla', sans-serif;
+        }
+
+        h2 {
+            color: #F1C40F;
+            margin-left: 100px;
+            font-family: 'Protest Guerrilla', sans-serif;
+        }
+
+        p {
+            color: #F6F8FF;
+            font-family: sans-serif;
+        }
+
+        p.link {
+            color: #F1C40F;
+            float: right;
         }
 
         blockquote {
-            background-color: lightgray;
+            background-color: #5B8E7D;
             padding: 1rem;
         }
+
+        body {
+            background-color: darkslategrey;
+        }
+
+        img.side {
+            float: right;
+            margin: 0 12px;
+        }
+
+        main, header, footer {
+            margin: 0 auto;
+            width: 80vw;
+            padding: 1rem;
+        }
+
+        div {
+            border: 1px solid black;
+            margin: 0 auto;
+            background-color: #564946;
+            padding: 1rem;
+            width: 80vw;
+        }
+
+        * {
+            
+        }
+
     </style>
 </head>
 
 
 <body>
     <header>
-        <img src="images/dig-dug.png" alt="dig dug logo" width="480" height="120" style="background-color:lightblue;"/>
+        <img src="images/dig-dug.png" alt="dig dug logo" width="480" height="120"/>
         <h1>Dig Dug</h1>
+        <hr />
     </header>
+    <div>
+        <main>
 
-    <main>
-        
-        <a href="big/pic1.html"><img src="images/dig-dug-burnt.png" alt="dig dug png" /></a>
-        <a href="big/pic1.html"><p class="linked">Click for "big" image</p></a>
+            <a href="big/pic1.html"><img src="images/dig-dug-burnt.png" alt="dig dug png" class="side"/></a>
+            <a href="big/pic1.html"><p class="link">Click for "big" image</p></a>
 
-        <h2>Publishing Info</h2>
+            <h2>Publishing Info</h2>
 
-        <p>
-            Published by: <em>Atari, Inc.</em>
-            <br /> Developed by: <abbr title="Nakamura Manufacturing Company">Namco</abbr> Limited
+            <p>
+                Published by: <em>Atari, Inc.</em>
+                <br />Developed by: <abbr title="Nakamura Manufacturing Company">Namco</abbr> Limited
 
-            <br />Released: Apr, 1982
-        </p>
+                <br />Released: Apr, 1982
+            </p>
+            <hr />
 
-        <h2>Description</h2>
+            <h2>Description</h2>
 
-        <p>
-            <em>Dig Dug</em> is a <strong>1-2 player arcade game</strong> in which you have to use your shovel to dig your way through the earth.
-            <br />Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around.
-            <br />The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode.
-            <br />[...]
-        </p>
+            <p>
+                <em>Dig Dug</em> is a <strong>1-2 player arcade game</strong> in which you have to use your shovel to dig your way through the earth.
+                <br />Stopping you from doing this are two monsters, called Pooka and Fygar, who will continually chase you around.
+                <br />The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode.
+                <br />[...]
+            </p>
 
-        <img src="images/fygar_inflate.jpg" alt="fygar image" />
+            <img src="images/fygar_inflate.jpg" alt="fygar image" class="side" />
+            <hr />
 
+            <h2>Game Categories</h2>
 
-        <h2>Game Categories</h2>
+            <p>
+                Genre: <strong>Action</strong>
+                <br />Perspective: <strong>Side view</strong>
+                <br />Visual: <strong>Fixed</strong>
+                <br />Gameplay: <strong>Arcade</strong>
+            </p>
+            <hr />
 
-        <p>
-            Genre: <strong>Action</strong>
-            <br />Perspective: <strong>Side view</strong>
-            <br />Visual: <strong>Fixed</strong>
-            <br />Gameplay: <strong>Arcade</strong>
-        </p>
+            <br />
+            <h2>Quote</h2>
+            <blockquote>
+                This definitely goes under the heading of "Games That Were Made While a Programmer Was on Drugs," or at least had a good imagination. And maybe they were into horror movies too.
+                -- https://www.mobygames.com/mobyrank/source/sourceId,540/
+            </blockquote>
 
-        <br />
-        <h2>Quote</h2>
-        <blockquote>
-            This definitely goes under the heading of "Games That Were Made While a Programmer Was on Drugs," or at least had a good imagination. And maybe they were into horror movies too.
-            -- https://www.mobygames.com/mobyrank/source/sourceId,540/
-        </blockquote>
-
-    </main>
-
+        </main>
+    </div>
     <footer>
         <h2>Source</h2>
 
-        <p>https://www.mobygames.com/game/arcade/dig-dug</p>
+        <a href="https://www.mobygames.com/game/arcade/dig-dug"><p>https://www.mobygames.com/game/arcade/dig-dug</p></a>
 
         <img src="images/dig-dug.svg" alt="dig dug logo SVG teal" />
 
