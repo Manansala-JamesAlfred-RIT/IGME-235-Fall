@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:homework\\basicgamepage\\basicpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\images\\palette.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\images\\palette.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "palette.png",
-              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\images\\palette.png",
-              "RelativeDocumentMoniker": "game\\images\\palette.png",
-              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\images\\palette.png",
-              "RelativeToolTip": "game\\images\\palette.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-09-18T14:26:09.839Z"
+              "DocumentIndex": 0,
+              "Title": "basicpage.html",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html",
+              "RelativeDocumentMoniker": "homework\\basicgamepage\\basicpage.html",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html",
+              "RelativeToolTip": "homework\\basicgamepage\\basicpage.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-19T00:41:54.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html",
               "RelativeDocumentMoniker": "game\\index.html",
               "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html",
               "RelativeToolTip": "game\\index.html",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAHgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-16T03:17:09.113Z",
               "EditorCaption": ""
