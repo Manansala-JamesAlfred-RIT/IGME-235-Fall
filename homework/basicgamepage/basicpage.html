@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Xenoblade Chronicles 3 Fanpage</title>
+    <title>XC3 Fanpage</title>
 
     <!-- Getting link to google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,37 +12,54 @@
 
         h1 {
             text-align: center;
-            color: brown;
+            color: #D4ADCF;
         }
-        
+
         h2 {
             margin-left: 100px;
-            color: brown;
+            color: #58355E;
         }
+
+            h2.source {
+                margin-left: 0px;
+                color: #D4ADCF;
+            }
 
         p.description {
             padding: 1rem;
         }
 
         p {
-
+            color: #0B5563;
         }
+
+            p.sourcep {
+                color: #D4ADCF;
+            }
 
         li {
-           
+            color: #0B5563;
         }
 
-        img.boxart {
+        img {
             float: right;
-            width: 100px;
             margin: 0 12px;
             border: 1px solid black;
         }
 
+        img.boxart {
+            width: 100px;
+
+        }
+
+        img.insidebox {
+            width: 250px;
+        }
+        
         body {
             margin: 0 auto;
             width: 750px;
-            background-color: seagreen;
+            background-color: #0B5563;
         }
 
         footer {
@@ -51,7 +68,7 @@
 
         div {
             border: 1px solid black;
-            background-color: blanchedalmond;
+            background-color: #84E296;
         }
 
     </style>
@@ -59,15 +76,17 @@
 <body>
 
     <header>
-        <h1>Xenoblade Chronicles 3</h1>
+        <h1>Xenoblade Chronicles 3 Fanpage</h1>
         <hr />
     </header>
     <div>
         <main>
 
             <h2>Description</h2>
+            <img src="images/inside-box.jpg" class="insidebox" />
             <p class="description"><em>Xenoblade Chronicles 3</em> is a single-player, open-world Japanese Action Role-Playing Game for the Nintendo Switch systems. </p>
             <hr />
+           
 
             <h2>Publishing Info</h2>
             <ul>
@@ -81,11 +100,11 @@
 
             <h2>Game Categories</h2>
             <ul>
-                <li>Genre: Role Playing (RPG)</li>
-                <li>Perspective: 3rd-Person (1st-person optional)</li>
-                <li>Art: Anime-style</li>
-                <li>Pacing: Real-time</li>
-                <li>Futuristic Fantasy</li>
+                <li><strong>Genre:</strong> Role Playing (RPG)</li>
+                <li><strong>Perspective:</strong> 3rd-Person (1st-person optional)</li>
+                <li><strong>Art:</strong> Anime-style</li>
+                <li><strong>Pacing:</strong> Real-time</li>
+                <li><strong>Setting:</strong> Futuristic Fantasy</li>
             </ul>
             <hr />
 
@@ -97,8 +116,8 @@
     </div>
     <footer>
         <hr />
-        <h2>Source</h2>
-        <a href="https://www.mobygames.com/game/188601/xenoblade-chronicles-3/"><p> https://www.mobygames.com/game/188601/xenoblade-chronicles-3/</p></a>
+        <h2 class="source">Source</h2>
+        <a href="https://www.mobygames.com/game/188601/xenoblade-chronicles-3/"><p class="sourcep"> https://www.mobygames.com/game/188601/xenoblade-chronicles-3/</p></a>
     </footer>
 
 

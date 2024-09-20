@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:homework\\basicgamepage\\basicpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\images\\xenoblade3-palette.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:homework\\basicgamepage\\images\\xenoblade3-palette.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "basicpage.html",
               "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html",
               "RelativeDocumentMoniker": "homework\\basicgamepage\\basicpage.html",
               "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\basicpage.html",
               "RelativeToolTip": "homework\\basicgamepage\\basicpage.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-19T00:41:54.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T00:41:54.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\game\\index.html",
               "RelativeDocumentMoniker": "game\\index.html",
@@ -45,6 +48,38 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-09-16T03:17:09.113Z",
               "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "cf66e1a5-3e47-49f4-8559-af055b10f437",
+        "Display": 0,
+        "X": 217,
+        "Y": 147,
+        "Width": 527,
+        "Height": 947,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "xenoblade3-palette.png",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\images\\xenoblade3-palette.png",
+              "RelativeDocumentMoniker": "homework\\basicgamepage\\images\\xenoblade3-palette.png",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\homework\\basicgamepage\\images\\xenoblade3-palette.png",
+              "RelativeToolTip": "homework\\basicgamepage\\images\\xenoblade3-palette.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-20T16:11:06.845Z"
             }
           ]
         }
