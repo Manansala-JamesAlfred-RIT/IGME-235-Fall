@@ -1,1 +1,73 @@
 /* Do everything in this file */
+h2, h3, h4 {
+    /*border-bottom: 1px solid red; */
+}
+
+figure {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+figure img{ 
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    clear: both;
+}
+
+.tet {
+    flex: 0 1 450px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tet img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tet.long {
+    width: 80%;
+}
+
+.tet.square img {
+    width: 40%;
+}
+
+footer {
+    clear: both;
+    /*position: fixed;
+    top: 0;
+    right: 0;*/
+    z-index: -1;
+}
+
+header, main, footer {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+#tetlist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.tet .name {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.tet .aliases {
+    text-align: left;
+    margin: 1em;
+}

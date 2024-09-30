@@ -6,8 +6,11 @@
     "\\homepage\\styles",
     "\\homework",
     "\\homework\\basicgamepage",
-    "\\homework\\basicgamepage\\images"
+    "\\homework\\basicgamepage\\images",
+    "\\tetris-start",
+    "\\tetris-start\\css",
+    "\\tetris-start\\images"
   ],
-  "SelectedNode": "\\homepage\\images\\bioimage.JPG",
+  "SelectedNode": "\\tetris-start\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
