@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\homepage",
+    "\\homepage\\images",
+    "\\homepage\\styles",
     "\\homework",
     "\\homework\\basicgamepage",
     "\\homework\\basicgamepage\\images"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\homepage\\images\\bioimage.JPG",
   "PreviewInSolutionExplorer": false
 }
