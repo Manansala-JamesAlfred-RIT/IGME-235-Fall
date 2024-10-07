@@ -1,2 +1,49 @@
 /* It starts completely empty. I wish you luck. */
 
+body {
+    margin: 1rem;
+}
+
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "logo"
+        "menu"
+        "intro"
+        "playground"
+        "footer";
+}
+
+h1.game {
+    grid-area: logo;
+}
+
+ul.menu {
+    grid-area: menu;
+}
+
+#introduction {
+    grid-area: intro;
+}
+
+#tetgrid {
+    grid-area: playground;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (min-width: 850px) {
+    #wrapper {
+        grid-template-columns: 500px 1fr;
+        grid-template-rows: 345px auto;
+        grid-template-areas:
+            "logo       intro"
+            "menu       menu"
+            "playground playground"
+            "footer     footer";
+
+    }
+}

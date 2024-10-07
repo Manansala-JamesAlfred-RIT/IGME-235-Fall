@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:grid-demo\\holygrail-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tetris-grid-start-files\\css\\gridstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:grid-demo\\holygrail-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tetris-grid-start-files\\tetris-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:grid-demo\\holygrail-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "holygrail-grid.css",
               "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.css",
               "RelativeDocumentMoniker": "grid-demo\\holygrail-grid.css",
               "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.css",
               "RelativeToolTip": "grid-demo\\holygrail-grid.css",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAADsAAAAiAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAAUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-06T19:36:25.022Z",
+              "WhenOpened": "2024-10-07T02:49:10.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "gridstyles.css",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css",
+              "RelativeDocumentMoniker": "tetris-grid-start-files\\css\\gridstyles.css",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css",
+              "RelativeToolTip": "tetris-grid-start-files\\css\\gridstyles.css",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-07T02:46:56.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "holygrail-grid.html",
-              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.html",
-              "RelativeDocumentMoniker": "grid-demo\\holygrail-grid.html",
-              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\grid-demo\\holygrail-grid.html",
-              "RelativeToolTip": "grid-demo\\holygrail-grid.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Title": "tetris-grid.html",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html",
+              "RelativeDocumentMoniker": "tetris-grid-start-files\\tetris-grid.html",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html",
+              "RelativeToolTip": "tetris-grid-start-files\\tetris-grid.html",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-06T19:36:26.005Z",
+              "WhenOpened": "2024-10-07T02:40:54.805Z",
               "EditorCaption": ""
             }
           ]
