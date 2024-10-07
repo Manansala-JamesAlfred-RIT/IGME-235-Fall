@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\grid-demo",
     "\\homepage",
-    "\\homepage\\images",
     "\\homepage\\styles",
     "\\homework",
     "\\homework\\basicgamepage",
@@ -11,6 +11,6 @@
     "\\tetris-start\\css",
     "\\tetris-start\\images"
   ],
-  "SelectedNode": "\\tetris-start\\css\\styles.css",
+  "SelectedNode": "\\grid-demo\\holygrail-grid.html",
   "PreviewInSolutionExplorer": false
 }
