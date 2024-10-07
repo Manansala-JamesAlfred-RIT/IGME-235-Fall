@@ -4,7 +4,6 @@ body {
     margin: 1rem;
 }
 
-
 #wrapper {
     display: grid;
     grid-template-areas:
@@ -35,6 +34,7 @@ footer {
     grid-area: footer;
 }
 
+
 @media screen and (min-width: 850px) {
     #wrapper {
         grid-template-columns: 500px 1fr;
@@ -46,4 +46,132 @@ footer {
             "footer     footer";
 
     }
+}
+
+#logo {
+    width: 500px;
+    height: 345px;
+    background: url("../images/tetris-logo.png") no-repeat;
+    text-indent: -9999px;
+    
+}
+
+
+ul.menu {
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    background: gray;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.1s ease-in, background-color 0.5s linear;
+    
+}
+
+.menu li {
+    width: 25%;
+}
+
+.menu a:hover {
+    background: red;
+    color: yellow;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 550px) {
+    .menu li {
+        width: 100%;
+    }
+}
+
+ul.menu ul li {
+    width: 100%;
+}
+
+ul.menu ul {
+    display: none;
+}
+
+ul.menu li:hover ul {
+    display: flex;
+}
+
+.menu .submenu li > a:hover {
+    background: red;
+    color: yellow;
+}
+
+.menu .submenu > a:after {
+    content: "+";
+    padding-left: 5px;
+}
+
+#tetgrid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+}
+
+div.tet {
+    overflow: visible;
+}
+
+#o {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#i {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#j {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#l {
+    grid-column: 3;
+    grid-row: 1/2;
+}
+
+#z {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#s {
+    grid-column: 6;
+    grid-row: 2/3;
+}
+
+#t {
+    grid-column: 7;
+    grid-row: 1/2;
+}
+
+#t img {
+    transform-origin: 3px 3px;
+    transform: rotate(90deg);
+}
+
+#s img {
+    transform-origin: 3px 3px;
+    transform: rotate(90deg);
+}
+img {
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+img:hover {
+    transform: rotate(-90deg);
 }
