@@ -3,9 +3,10 @@
     "",
     "\\DEMOS",
     "\\DEMOS\\css_frameworks_demo",
+    "\\DEMOS\\css_frameworks_demo\\css",
     "\\game",
     "\\project1"
   ],
-  "SelectedNode": "\\DEMOS\\css_frameworks_demo\\default-start.html",
+  "SelectedNode": "\\DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
   "PreviewInSolutionExplorer": false
 }

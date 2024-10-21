@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\default-start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DEMOS\\css_frameworks_demo\\default-start.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tetris-grid-start-files\\css\\gridstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tetris-grid-start-files\\tetris-grid.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\bootstrap-carousel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DEMOS\\css_frameworks_demo\\bootstrap-carousel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "default-start.html",
-              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\default-start.html",
-              "RelativeDocumentMoniker": "DEMOS\\css_frameworks_demo\\default-start.html",
-              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\default-start.html",
-              "RelativeToolTip": "DEMOS\\css_frameworks_demo\\default-start.html",
+              "Title": "bootstrap-carousel.html",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
+              "RelativeDocumentMoniker": "DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
+              "RelativeToolTip": "DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-21T06:01:38.879Z",
+              "WhenOpened": "2024-10-21T06:51:36.887Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "gridstyles.css",
-              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css",
-              "RelativeDocumentMoniker": "tetris-grid-start-files\\css\\gridstyles.css",
-              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\css\\gridstyles.css",
-              "RelativeToolTip": "tetris-grid-start-files\\css\\gridstyles.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-07T02:46:56.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tetris-grid.html",
-              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html",
-              "RelativeDocumentMoniker": "tetris-grid-start-files\\tetris-grid.html",
-              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\tetris-grid-start-files\\tetris-grid.html",
-              "RelativeToolTip": "tetris-grid-start-files\\tetris-grid.html",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAEoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-07T02:40:54.805Z"
             }
           ]
         }
