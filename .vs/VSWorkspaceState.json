@@ -1,16 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\homework",
-    "\\homework\\basicgamepage",
-    "\\homework\\basicgamepage\\images",
-    "\\tetris-grid-start-files",
-    "\\tetris-grid-start-files\\css",
-    "\\tetris-grid-start-files\\images",
-    "\\tetris-start",
-    "\\tetris-start\\css",
-    "\\tetris-start\\images"
+    "\\DEMOS",
+    "\\DEMOS\\css_frameworks_demo",
+    "\\game",
+    "\\project1"
   ],
-  "SelectedNode": "\\tetris-grid-start-files\\images\\tetris-logo.png",
+  "SelectedNode": "\\DEMOS\\css_frameworks_demo\\default-start.html",
   "PreviewInSolutionExplorer": false
 }
