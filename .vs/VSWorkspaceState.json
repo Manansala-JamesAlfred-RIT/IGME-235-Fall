@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DEMOS",
-    "\\DEMOS\\grid-demo",
     "\\homework",
-    "\\homework\\randomphrases",
+    "\\homework\\gallery-start",
+    "\\homework\\gallery-start\\images",
     "\\homework\\randomphrases\\css",
     "\\project1"
   ],
-  "SelectedNode": "\\DEMOS\\grid-demo\\holygrail-grid.html",
+  "SelectedNode": "\\homework\\gallery-start\\gallery.html",
   "PreviewInSolutionExplorer": false
 }

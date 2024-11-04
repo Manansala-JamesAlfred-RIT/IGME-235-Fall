@@ -78,7 +78,7 @@
       </div>
        <p id="description">Choose an image.</p>
      <footer>
-        <p>For IGME-230 Web Site Design & Implementation</p>
+        <p>For IGME-235 Intro to Game Web Tech</p>
      </footer>
     </section>
      <script>
@@ -87,6 +87,27 @@
 	span. In JavaScript we access these custom data properties using the .dataset 
 	property. We also covered this in web-apps-6.
 	*/
+
+		// Method that displays selected image from list
+		function imageDisplay(event) {
+            // Getting data from list
+			const imageName = event.target.getAttribute("data-image");
+			// Creating variable that will temp hold value
+			const image = document.getElementById("placeholder");
+			// Finding image from given list, then setting into temp image variable
+			image.src = "images/" + imageName;
+			// Updating the description
+			document.getElementById("description").innerText = event.target.title;
+		}
+
+		// Getting all the containers using queryselectorAll
+		const spans = document.querySelectorAll("span[data-image]");
+
+		// When button is clicked, will run imageDisplay function. Will apply for each button as they are all referenced into spans
+		spans.forEach(span => {
+			span.addEventListener("click", imageDisplay);
+		})
+
 	</script>
 	   
 </body>
