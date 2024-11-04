@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Phrases</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>REGGIE'S REAL GAME QUOTES</h1>
+    </header>
+
+    <div id="content">
+        <div id="quote"></div>
+        <button onclick="quoteDisplay()">What would Reggie say?</button>
+    </div>
+
+    <footer>
+        <p>Created By: James Alfred Rodrigazo Manansala</p>
+        <p>Image from: Nintendo Life</p>
+    </footer>
+
+    <script>
+        // Javascript array that holds 5 epic Reggie phrases
+        const savedPhrases = [
+            "Mr. Miyamoto, my body is ready.",
+            "That's all the time I've got. I have to get back to playing Animal Crossing: New Leaf on my Nintendo 3DS.",
+            "Some people say I look like Bowser.",
+            "I feel just like a purple pikmin.",
+            "You want Mother 3? Take this instead! *fireballs you*"
+        ];
+
+        // Method that will randomly select a quote from the savedPhrases array
+        function quoteDisplay() {
+            const randomNum = Math.floor(Math.random() * savedPhrases.length);
+            document.getElementById('quote').innerHTML = savedPhrases[randomNum];
+        }
+
+        // Displaying quote
+        window.onload = quoteDisplay;
+    </script>
+
+</body>
+</html>

@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\DEMOS",
-    "\\DEMOS\\css_frameworks_demo",
-    "\\DEMOS\\css_frameworks_demo\\css",
-    "\\game",
+    "\\DEMOS\\grid-demo",
+    "\\homework",
+    "\\homework\\randomphrases",
+    "\\homework\\randomphrases\\css",
     "\\project1"
   ],
-  "SelectedNode": "\\DEMOS\\css_frameworks_demo\\bootstrap-carousel.html",
+  "SelectedNode": "\\DEMOS\\grid-demo\\holygrail-grid.html",
   "PreviewInSolutionExplorer": false
 }
