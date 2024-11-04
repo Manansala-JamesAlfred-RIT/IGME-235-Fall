@@ -68,10 +68,10 @@
   <section id="main">
       <h1>Snapshots</h1>
       <ul>
-        <li><span data-image="cassie.jpg" title="A fireworks display">Cassie</span></li>
-        <li><span data-image="seal.jpg" title="A cup of black coffee">Seal</span></li>
-        <li><span data-image="wolf.jpg" title="A red, red rose">Wolf</span></li>
-        <li><span data-image="eagle.jpg" title="The famous clock">Eagle</span></li>
+        <li><span data-image="cassie.jpg" title="A pretty cool doggy">Cassie</span></li>
+        <li><span data-image="seal.jpg" title="Smiling Seal on the Beach">Seal</span></li>
+        <li><span data-image="wolf.jpg" title="A wolf's love for the hunt">Wolf</span></li>
+        <li><span data-image="eagle.jpg" title="America's Pride">Eagle</span></li>
       </ul>
       <div id="imagewrapper">
         <img id="placeholder" src="images/placeholder.gif" alt="my image gallery" />
@@ -103,7 +103,7 @@
 		// Getting all the containers using queryselectorAll
 		const spans = document.querySelectorAll("span[data-image]");
 
-		// When button is clicked, will run imageDisplay function. Will apply for each button as they are all referenced into spans
+		// When button is clicked, will run imageDisplay function. Will apply for each button (loop) as they are all referenced into spans
 		spans.forEach(span => {
 			span.addEventListener("click", imageDisplay);
 		})
