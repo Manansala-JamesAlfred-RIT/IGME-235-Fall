@@ -33,9 +33,9 @@
 
     <div id="colorform">
         <legend>Choose your favorite color!</legend>
-        <p><input type="radio" name="colorGroup" id="colorGroupRed" value="red" /> Red</p>
-        <p><input type="radio" name="colorGroup" id="colorGroupGreen" value="green" /> Green</p>
-        <p><input type="radio" name="colorGroup" id="colorGroupBlue" value="blue" /> Blue</p>
+        <p><input type="checkbox" name="colorGroup" id="colorGroupRed" value="red" /> Red</p>
+        <p><input type="checkbox" name="colorGroup" id="colorGroupGreen" value="green" /> Green</p>
+        <p><input type="checkbox" name="colorGroup" id="colorGroupBlue" value="blue" /> Blue</p>
         <p><button id="colorButton" type="button">Submit</button></p>
         <p id="info"></p>
     </div>
@@ -44,35 +44,62 @@
         /* Write your code here! */
 
         // Getting radio buttons and submit button
-        const radioButtons = document.querySelectorAll('input[name="colorGroup"]');
+        const checkboxes = document.querySelectorAll('input[name="colorGroup"]');
         const submitButton = document.getElementById('colorButton');
         const infoParagraph = document.getElementById('info');
-        const legend = document.querySelector('legend');
-        
-        // Storing selected color
-        let selectedColor = "";
 
-        // Function to handle radio button change event
-        const handleRadioChange = (event) => {
-            selectedColor = event.target.value;
-            // Essentially gets the target value to store it.
-        }
+        // Everything will be done in this handle submit click function
 
-        // Adding listeners for each button change
-        radioButtons.forEach(radio => {
-            radio.addEventListener('change', handleRadioChange);
-        });
+        // Function to update the display
+        const updateInfo = () => {
+            // Creating array to store selected colors
+            let selectedColors = [];
 
-        // Function to handle submitting button
-        const handleSubmitClick = () => {
-            if (selectedColor) {
-                // Displayed selected color
-                infoParagraph.textContent = `You've selected the color: ${selectedColor}`;
+            // Will run a for each loop to see if what colors are checked
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    // Then adds color to colors list
+                    selectedColors.push(checkbox.value);
+                }
+            });
+
+            // If statement that will combine the selected colors 
+            if (selectedColors.length > 0) {
+                infoParagraph.textContent = `You selected: ${selectedColors.join(' and ')}`;
             }
             else {
-                infoParagraph.textContent = "Please select a color and re-submit!";
+                infoParagraph.textContent = "Please select at least one color!";
+            }
+
+        };
+
+
+        // Function to handle the submit button click event
+        const handleSubmitClick = () => {
+            // Creating array to store selected colors
+            let selectedColors = [];
+
+            // Will run a for each loop to see if what colors are checked
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    // Then adds color to colors list
+                    selectedColors.push(checkbox.value);
+                }
+            });
+
+            // If statement that will combine the selected colors 
+            if (selectedColors.length > 0) {
+                infoParagraph.textContent = `FINAL selection: ${selectedColors.join(' and ')}`;
+            }
+            else {
+                infoParagraph.textContent = "You didn't select any colors.";
             }
         }
+
+        // Adding listener event for checkbox changes to update the display in real time
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateInfo);
+        });
 
         // Adding event listener for submitting button
         submitButton.addEventListener('click', handleSubmitClick);
