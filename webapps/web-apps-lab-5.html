@@ -41,7 +41,42 @@
     </div>
 
     <script>
-/* Write your code here! */
+        /* Write your code here! */
+
+        // Getting radio buttons and submit button
+        const radioButtons = document.querySelectorAll('input[name="colorGroup"]');
+        const submitButton = document.getElementById('colorButton');
+        const infoParagraph = document.getElementById('info');
+        const legend = document.querySelector('legend');
+        
+        // Storing selected color
+        let selectedColor = "";
+
+        // Function to handle radio button change event
+        const handleRadioChange = (event) => {
+            selectedColor = event.target.value;
+            // Essentially gets the target value to store it.
+        }
+
+        // Adding listeners for each button change
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', handleRadioChange);
+        });
+
+        // Function to handle submitting button
+        const handleSubmitClick = () => {
+            if (selectedColor) {
+                // Displayed selected color
+                infoParagraph.textContent = `You've selected the color: ${selectedColor}`;
+            }
+            else {
+                infoParagraph.textContent = "Please select a color and re-submit!";
+            }
+        }
+
+        // Adding event listener for submitting button
+        submitButton.addEventListener('click', handleSubmitClick);
+
     </script>
 </body>
 </html>
