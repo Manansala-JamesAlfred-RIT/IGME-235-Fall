@@ -47,13 +47,19 @@ if (storedName){
 
 // if we find a previously set color value, display it
 if (storedColor){
-	colorSelect.querySelector(`option[value='${storedColor}']`).selected = true;
+    colorSelect.querySelector(`option[value='${storedColor}']`).selected = true;
+    // Set the background color to stated color
+    document.body.style.backgroundColor = storedColor;
 }
 
 /* This stuff happens later when the user does something */
 // when the user changes their favorites, update localStorage
 nameField.onchange = e=>{ localStorage.setItem(nameKey, e.target.value); };
-colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
+    colorSelect.onchange = e => {
+        localStorage.setItem(colorKey, e.target.value);
+        // Updating background color
+        document.body.style.backgroundColor = e.target.value;
+    };
 
 
 </script>
