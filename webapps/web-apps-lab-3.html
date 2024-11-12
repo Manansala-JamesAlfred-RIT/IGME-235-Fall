@@ -28,8 +28,30 @@
 
     <script>
 "use strict";
-let colors = ["red","green","blue","purple","pink"];
-let foods = []; // add some foods
+        let colors = ["red", "green", "blue", "purple", "pink", "black", "white", "yellow", "orange", "peach", "magenta"];
+let foods = []; 
+
+        // Adding colors
+        colors.push("black", "white", "yellow", "orange", "peach", "magenta");
+        // Adding my favorite foods
+        foods.push("pizza", "mango", "ice cream", "hot dog", "tacos", "cheeseburger", "costco chicken bake", "ramen", "pho", "pad thai");
+
+        // For loop for the colors array to append them to a colors list
+        for (let i = 0; i < colors.length; i++) {
+            let li = document.createElement("li");
+            // Getting color from array
+            li.textContent = colors[i];
+            // Setting them into the list
+            document.getElementById("colorsList").appendChild(li);
+        }
+
+        // Looping through foods array using for of loop to append them into foods list
+        for (let food of foods) {
+            let li = document.createElement("li");
+            li.textContent = food;
+            document.getElementById("foodsList").appendChild(li);
+        }
+
 
 // Optional - can you figure out how to pull both the key AND the value
 // from the `links` object literal?
@@ -38,6 +60,21 @@ let links = {
 		"RWAG" : "https://www.facebook.com/RWAGclub",
 		"New Media Club" : "http://newmediaclub.cias.rit.edu"
 	}
+
+        // Looping through links object using for in loop and appending them to link list
+        for (let site in links) {
+            // li (key) element for the link
+            let li = document.createElement("li");
+            // a (value) element for the link
+            let a = document.createElement("a");
+            // Setting href to the URL
+            a.href = links[site];
+            // Getting text content
+            a.textContent = site;
+            // Attaching a element to li
+            li.appendChild(a);
+            document.getElementById("linksList").appendChild(li);
+        }
 
     </script>
 </body>
