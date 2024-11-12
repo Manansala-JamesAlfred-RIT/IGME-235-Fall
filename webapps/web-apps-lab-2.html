@@ -27,6 +27,53 @@
 
     // add your own code here.
 
+        // Getting h1 and h2 references
+        let h1Paragraph = document.querySelector("h1");
+        let h2Paragraphs = document.querySelectorAll("h2");
+
+        // Setting h1 paragraph
+        h1Paragraph.innerHTML = "My UFO Page";
+
+        // Setting h2 paragraphs
+        h2Paragraphs[0].innerHTML = "My UFO Info";
+
+        h2Paragraphs[1].innerHTML = "My UFO Pictures";
+
+        h2Paragraphs[2].innerHTML = "";
+
+        // Setting body font family
+        document.body.style.fontFamily = "sans-serif";
+        // Setting color style
+        document.body.style.color = "#D32F2F"; 
+
+        // Getting paragraphs
+        let paragraphs = document.querySelectorAll("p");
+
+        // Displaying paragraph 1's description
+        paragraphs[0].innerHTML = 'Report your UFO sightings here: <a href="http://www.nuforc.org" target="_blank">NUFORC</a>';
+
+        // Setting paragraph 1's styles
+        paragraphs[0].style.color = "green"; 
+        paragraphs[0].style.fontWeight = "bold"; 
+        paragraphs[0].style.fontSize = "2em"; 
+        paragraphs[0].style.textTransform = "uppercase"; 
+        paragraphs[0].style.textShadow = "3px 2px #A44"; 
+        
+        // Setting 2nd paragraph to empty string
+        paragraphs[1].innerHTML = "";
+
+        // Setting 3rd paragraph to have the image
+        paragraphs[2].innerHTML = '<img src="images/UFO.jpg" alt="Real UFO sighting" style="width: 500px; height: auto;"/>';
+
+        // Getting footer paragraph
+        let footerParagraph = document.querySelector("footer");
+
+        // Getting current year
+        let currentYear = new Date().getFullYear();
+
+        // Displaying footer
+        footerParagraph.innerHTML = `Copyright &copy; ${currentYear} James Alfred Manansala`;
+
     </script>
 </body>
 </html>
