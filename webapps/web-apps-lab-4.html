@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Web Apps-4-HW</title>
+    <style>
+        body {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorites</h1>
+    <h2>My Favorite Colors</h2>
+
+    <ol id="colorsList">
+    </ol>
+
+    <h2>My Favorite Foods</h2>
+
+    <ol id="foodsList">
+    </ol>
+
+    <h2>My Favorite Links</h2>
+
+    <ol id="linksList">
+    </ol>
+
+    <script>
+"use strict";
+        let colors = ["red", "green", "blue", "purple", "pink", "black", "white", "yellow", "orange", "peach", "magenta"];
+        let foods = []; 
+        let links = {
+            "RIT": "http://www.rit.edu",
+            "RWAG": "https://www.facebook.com/RWAGclub",
+            "New Media Club": "http://newmediaclub.cias.rit.edu"
+        }
+
+        // Adding colors
+        colors.push("black", "white", "yellow", "orange", "peach", "magenta");
+        // Adding my favorite foods
+        foods.push("pizza", "mango", "ice cream", "hot dog", "tacos", "cheeseburger", "costco chicken bake", "ramen", "pho", "pad thai");
+
+
+        // Creating reusable function to generate list
+        function createList(listElement, array = ["puppydogs", "butterflies", "lollipops"]) {
+
+            // Looping through array to create list items
+            for (let item of array) {
+                let li = document.createElement("li");
+                li.textContent = item;
+                listElement.appendChild(li);
+            }
+        }
+
+        // Calling functions to create colors and food list
+        createList(document.getElementById("colorsList"), colors);
+        createList(document.getElementById("foodsList"), foods);
+
+
+        // Optional - can you figure out how to pull both the key AND the value
+        // from the `links` object literal?
+
+        // Looping through links object using for in loop and appending them to link list
+        for (let site in links) {
+            // li (key) element for the link
+            let li = document.createElement("li");
+            // a (value) element for the link
+            let a = document.createElement("a");
+            // Setting href to the URL
+            a.href = links[site];
+            // Getting text content
+            a.textContent = site;
+            // Attaching a element to li
+            li.appendChild(a);
+            document.getElementById("linksList").appendChild(li);
+        }
+
+    </script>
+</body>
+</html>

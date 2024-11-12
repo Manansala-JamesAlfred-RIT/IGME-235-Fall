@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webapps\\web-apps-lab-4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webapps\\web-apps-lab-3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webapps\\web-apps-lab-2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +30,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "web-apps-lab-3.html",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-3.html",
+              "RelativeDocumentMoniker": "webapps\\web-apps-lab-3.html",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-3.html",
+              "RelativeToolTip": "webapps\\web-apps-lab-3.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T03:11:07.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "web-apps-lab-4.html",
+              "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-4.html",
+              "RelativeDocumentMoniker": "webapps\\web-apps-lab-4.html",
+              "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-4.html",
+              "RelativeToolTip": "webapps\\web-apps-lab-4.html",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T02:52:39.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "web-apps-lab-2.html",
               "DocumentMoniker": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-2.html",
               "RelativeDocumentMoniker": "webapps\\web-apps-lab-2.html",
               "ToolTip": "C:\\Users\\DaJMa\\source\\repos\\IGME-235-Fall\\webapps\\web-apps-lab-2.html",
               "RelativeToolTip": "webapps\\web-apps-lab-2.html",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAwEkAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-12T01:59:55.519Z",
               "EditorCaption": ""
