@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\homework",
     "\\project3",
+    "\\project3\\TheGreatEscape",
+    "\\project3\\TheGreatEscape\\images",
+    "\\project3\\TheGreatEscape\\js",
     "\\webapps"
   ],
-  "SelectedNode": "\\project3\\about.html",
+  "SelectedNode": "\\project3\\TheGreatEscape\\images\\spaceship.png",
   "PreviewInSolutionExplorer": false
 }
