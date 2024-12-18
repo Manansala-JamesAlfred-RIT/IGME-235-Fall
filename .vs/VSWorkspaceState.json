@@ -3,11 +3,13 @@
     "",
     "\\homework",
     "\\project3",
-    "\\project3\\TheGreatEscape",
-    "\\project3\\TheGreatEscape\\images",
-    "\\project3\\TheGreatEscape\\js",
+    "\\project3\\TheLastFighter",
+    "\\project3\\TheLastFighter\\images",
+    "\\project3\\TheLastFighter\\images\\mockups",
+    "\\project3\\TheLastFighter\\js",
+    "\\project3\\TheLastFighter\\sounds",
     "\\webapps"
   ],
-  "SelectedNode": "\\project3\\TheGreatEscape\\images\\spaceship.png",
+  "SelectedNode": "\\project3\\TheLastFighter\\images",
   "PreviewInSolutionExplorer": false
 }

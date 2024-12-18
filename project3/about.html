@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Project 3 Proposal</title>
+    <title>Project 3 Documentation</title>
     <style>
         body {
             background-color: black;
@@ -13,8 +13,19 @@
         h3 {
             color:dimgray;
         }
-        p, li {
+        p, li, figcaption {
             color: gray;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border: 1px solid white;
+        }
+        figure {
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
         }
     </style>
 
@@ -22,13 +33,15 @@
 <body>
     <h1>The Last Fighter</h1>
 
+    <h2> <a href="TheLastFighter/game.html">Play Here!</a> </h2>
+
     <h2>High Concept</h2>
-    <p>Asteroids meets Galaga</p>
+    <p>Asteroids meets Galaga in Horde mode</p>
     <br />
 
     <h2>Genre</h2>
-    <p>Shoot-em-up and around. Asteroids style.</p>
-    <p>Action, Shooter, Fighting, Hunting.</p>
+    <p>Shoot-em-up and around.</p>
+    <p>Action, Shooter, Fighting, Horde, Twitchy.</p>
     <br />
 
     <h2>Platform</h2>
@@ -36,15 +49,15 @@
     <br />
 
     <h2>Story</h2>
-    <p>As the last fighter of an invaded planet, you know your time is up. As a last stand, a testmant to your planet, you give the intergalactic forces a fight to the death, taking down swarms of enemies.</p>
+    <p>As the last fighter of an invaded planet, you know your time is up. As a last stand, a testamant to your planet, you give the intergalactic forces a fight to the death, taking down swarms of enemies.</p>
     <br />
 
     <h2>Aesthetics</h2>
-    <p>Futuristic sci-fi space.</p>
+    <p>Futuristic sci-fi space 2D.</p>
     <br />
 
     <h2>Gameplay</h2>
-    
+
     <h3>Mechanics</h3>
     <p>Enemies spawn in from the screen, chasing after you, shooting at you, trying to destroy you!</p>
     <p>Destroy all enemies using your blasters!</p>
@@ -67,38 +80,62 @@
     <br />
 
     <h2>Screenshots</h2>
-    <br />
+    <figure>
+        <img src="TheLastFighter/images/mockups/titlemockup.png" alt="Title mockup" />
+        <figcaption>Title Mockup</figcaption>
+    </figure>
+    <figure>
+        <img src="TheLastFighter/images/mockups/seekingmissiles.png" alt="Ships/Missiles that follow the player" />
+        <figcaption>Seeking missiles</figcaption>
+    </figure>
+    <figure>
+        <img src="TheLastFighter/images/mockups/turningshiparound.png" alt="Turning the ship around to fight an enemy" />
+        <figcaption>Turning around the ship to shoot</figcaption>
+    </figure>
+        <br />
 
-    <h2>Other</h2>
-    <p>Libraries used: Pixi.js</p>
+        <h2>Other</h2>
+        <p>Libraries used: PIXI.js, howler.js (sounds).</p>
 
-    <br />
-    <h2>About the Developer</h2>
-    <p>James Alfred Mannasala is a 2nd year Game Design and Development Major at Rochester Institute of Technology. He has a vested interest in JRPGs, platformers, metroidvanias, and a love of Snarky Puppy. As an aspiring creator, he looks to shake things up and to ultimately create something good for others.</p>
-    <br />
+        <br />
+        <h2>About the Developer</h2>
+        <p>James Alfred Mannasala is a 3rd year Game Design and Development Major at Rochester Institute of Technology. While not too shabby in code, art is not his strong suit. He has a vested interest in JRPGs, platformers, metroidvanias, and a love of Snarky Puppy. As an aspiring creator, he looks to shake things up and to ultimately create something good for others.</p>
+        <br />
 
-    <h2>Documentation</h2>
-    <p>Based off: Circle Blast Homework</p>
+        <h2>Documentation</h2>
+        <p>Based off: Circle Blast Homework</p>
 
-    <h3>The Process</h3>
-    <ul>   
-        <li>Used Circle Blast Homework labs as a base.</li>
-        <li>1. Incorporated WASD Keys.</li>
-        <li>2. Incorporated pressing space bar to shoot instead of mouse.</li>
-        <li>3. Incorporated ship changing angle to face towards mouse.</li>
-        <li>4. Incorporated shooting bullets at angle facing towards mouse.</li>
-        <li>5. Incorporated a tutorial screen that explains how to play the game. </li>
-        <li>6. Incorporated pause button (escape).</li>
-        <li>7. Incorporated an upgrade screen.</li>
-        <li>8. Incorporated 3 upgrades, speed, health, and bullets, which the player could get as they gain more score.</li>
-        <li>9. Increased difficulty of enemy AI by making them faster and more numerous.</li>
-        <li>10. Increased # of enemies and enemy speed as player completes more levels.</li>
-        <li>11. Balancing between score upgrades and number of enemies on screen.</li>
-        <li>12. Incorporated the speed booster, for when the player presses Shift to temporarily speed up.</li>
-        <li>13. Incorporated multiple bullets to be shot at the same time in a spread shot for the player when upgraded.</li>
-    </ul>
-    <p>Enemy Ship 1 from: https://opengameart.org/content/enemy-space-shuttle</p>
-    <p></p>
+        <h3>The Process</h3>
+        <ul>
+            <li>Used Circle Blast Homework labs as a base.</li>
+            <li>1. Incorporated WASD Keys.</li>
+            <li>2. Incorporated pressing space bar to shoot instead of mouse.</li>
+            <li>3. Incorporated ship changing angle to face towards mouse.</li>
+            <li>4. Incorporated shooting bullets at angle facing towards mouse.</li>
+            <li>5. Incorporated a tutorial screen that explains how to play the game. </li>
+            <li>6. Incorporated pause button (escape).</li>
+            <li>7. Incorporated an upgrade screen.</li>
+            <li>8. Incorporated 3 upgrades, speed, health, and bullets, which the player could get as they gain more score.</li>
+            <li>9. Increased difficulty of enemy AI by making them faster and more numerous.</li>
+            <li>10. Increased # of enemies and enemy speed as player completes more levels.</li>
+            <li>11. Balancing between score upgrades and number of enemies on screen.</li>
+            <li>12. Incorporated the speed booster, for when the player presses Shift to temporarily speed up.</li>
+            <li>13. Incorporated multiple bullets to be shot at the same time in a spread shot for the player when upgraded.</li>
+            <li>14. Incorporated 3 enemy sprites for the 3 different enemy behaviors.</li>
+            <li>15. Made enemies rotate based on the direction their moving.</li>
+            <li>16. Added Color palette to change up colors. Also changed font to Space Mono.</li>
+            <li>17. Fixed bugs: Game not loading after going to tutorial and pressing start. Sprites not parsing through. Textures rendering multiple times. </li>
+            <li>18. Added Background ambience and music. Made it so that the music loops.</li>
+            <li>19. Fixed up about.html to include my rough drafts and proper crediting.</li>
+        </ul>
 
+        <p>Color palette got using <a href="https://coolors.co/57467b-519872-9a031e-fdf0d5-0d2c54" target="_blank" style="color: gray;">Coolors.co</a></p>
+        <p>Space Mono font from Google Fonts: <a href="https://fonts.google.com/specimen/Space+Mono?query=space" target="_blank" style="color: gray;">Google Fonts</a></p>
+        <p>Enemy spaceshipdark, torpedodark, and ufodark pngs from: <a href="https://opengameart.org/content/space-starter-kit" target="_blank" style="color: gray;">OpenGameArt (CruzR)</a></p>
+        <p>Enemy space_shuttle png from: <a href="https://opengameart.org/content/enemy-space-shuttle" target="_blank" style="color: gray;">OpenGameArt (Umplix)</a></p>
+        <p>GameScene space background image from: <a href="https://opengameart.org/content/space-background-01" target="_blank" style="color: gray;">OpenGameArt (Satur9)</a></p>
+        <p>Player spaceship and explosion animated provided by Circle Blast Homework. Cropped/edited by me.</p>
+        <p>Background ambience music from: <a href="https://opengameart.org/content/background-rumble-noise" target="_blank" style="color: gray;">OpenGameArt (gryc)</a></p>
+        <p>Background gameplay music from <a href="https://opengameart.org/content/pirates-theme" target="_blank" style="color: gray;">OpenGameArt (rezoner).</a> rezoner <a href="http://soundcloud.com/rezoner" target="_blank" style="color: gray;">SoundCloud (for attribution)</a> </p>
 </body>
 </html>
